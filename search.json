@@ -1,0 +1,121 @@
+[
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "Lab Notebook",
+    "section": "",
+    "text": "Free access to my pipeline in ‘Docking using T4 lysozyme L99A’\n\n\n\npipeline preparation\n\ndocking pipeline\n\npipeline access\n\n\n\n\n\n\n\n\n\nJun 20, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nDocking using T4 lysozyme L99A\n\n\n\ndocking\n\ndocumented workflow\n\nevaluation\n\n\n\n\n\n\n\n\n\nJun 20, 2026\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome!",
+    "section": "",
+    "text": "I am happy to have you here!\nThis is where I document my path toward computational biology and bioinformatics: pipelines I’m building, things I’m learning, and the process behind the research (not the findings themselves).\n\n\n\nLab Notebook — dated entries on what I’m working through, week to week\nAbout — background, skills, and email contact if you need to contact me for any questions etc!"
+  },
+  {
+    "objectID": "index.html#start-here",
+    "href": "index.html#start-here",
+    "title": "Welcome!",
+    "section": "",
+    "text": "Lab Notebook — dated entries on what I’m working through, week to week\nAbout — background, skills, and email contact if you need to contact me for any questions etc!"
+  },
+  {
+    "objectID": "posts/2026-06-20-second-post/index.html",
+    "href": "posts/2026-06-20-second-post/index.html",
+    "title": "Free access to my pipeline in ‘Docking using T4 lysozyme L99A’",
+    "section": "",
+    "text": "Pipeline\nAccess my pipeline on GitHub:\n\nGitHub &lt;3 obssxed-cell\n\n\nSee my About page for more on my background."
+  },
+  {
+    "objectID": "posts/2026-06-20-first-entry/index.html",
+    "href": "posts/2026-06-20-first-entry/index.html",
+    "title": "Docking using T4 lysozyme L99A",
+    "section": "",
+    "text": "I ran my first validated docking experiment:\n“Docking benzene into the hydrophobic cavity of T4 lysozyme L99A (PDB 181L) using AutoDock Vina”\nI picked this system because the crystal structure already has benzene bound, so I could check my pipeline against a known answer to check if my docking was a success.\nThe top-scoring pose lined up closely with the crystallographic benzene confirmation the pipeline (receptor prep → protonation → docking → pose comparison) actually works end to end, not just that the software ran without errors. This matters because every later result is only as trustworthy as this baseline check.\nDuring my follow-up screening panel (benzene, toluene, hexylbenzene, phenol, ethanol against the same hydrophobic pocket), phenol’s docking score didn’t make sense. Its affinity was more than expected. Phenol has a hydroxyl group, so my first assumption was that its score must be coming from a hydrogen bond with a polar residue in the pocket. I thought that would be the obvious story for a molecule with an -OH group.\nVina’s score didn’t show a desolvation penalty for phenol’s buried hydroxyl group either, which is a known blind spot of simple empirical scoring functions. Automatically, I thought this is not necessarily a real thermodynamic fact about the system itself.\nInstead of assuming, I wanted to actually check it so I measured the actual distances between phenol’s hydroxyl and nearby residues in PyMOL. Hydrogen bonds have a fairly strict cutoff roughly 3.5 Å between H-bond donors and acceptors. Nothing in the pocket was within that range. So the H-bond explanation didn’t make sense once I actually measured it.\nWhat was really driving the score turned out to be the same thing as benzene and toluene, which was hydrophobic packing against the cavity walls. The -OH group was just there, it was not doing the work I’d assumed."
+  },
+  {
+    "objectID": "posts/2026-06-20-first-entry/index.html#what-i-worked-on-today",
+    "href": "posts/2026-06-20-first-entry/index.html#what-i-worked-on-today",
+    "title": "Docking using T4 lysozyme L99A",
+    "section": "",
+    "text": "I ran my first validated docking experiment:\n“Docking benzene into the hydrophobic cavity of T4 lysozyme L99A (PDB 181L) using AutoDock Vina”\nI picked this system because the crystal structure already has benzene bound, so I could check my pipeline against a known answer to check if my docking was a success."
+  },
+  {
+    "objectID": "posts/2026-06-20-first-entry/index.html#pipeline",
+    "href": "posts/2026-06-20-first-entry/index.html#pipeline",
+    "title": "Docking using T4 lysozyme L99A",
+    "section": "Pipeline:",
+    "text": "Pipeline:"
+  },
+  {
+    "objectID": "posts/2026-06-20-first-entry/index.html#docked-images",
+    "href": "posts/2026-06-20-first-entry/index.html#docked-images",
+    "title": "Docking using T4 lysozyme L99A",
+    "section": "Docked Images",
+    "text": "Docked Images\n\n\n\nDocked pose overlaid on the crystal structure, cartoon view. Green: T4 lysozyme L99A (PDB ID: 181L) Light Blue: Benzene\n\n\n\n\n\nDocked pose overlaid on the crystal structure, slashed-through surface view mixed with cartoon view, which allows visualisation of the hydrophobic pocket benzene docks in. RGB: T4 lysozyme L99A (PDB ID: 181L) Light Blue: Benzene"
+  },
+  {
+    "objectID": "posts/2026-06-20-first-entry/index.html#what-i-learned",
+    "href": "posts/2026-06-20-first-entry/index.html#what-i-learned",
+    "title": "Docking using T4 lysozyme L99A",
+    "section": "What I learned",
+    "text": "What I learned"
+  },
+  {
+    "objectID": "posts/2026-06-20-first-entry/index.html#a-brief-results-table",
+    "href": "posts/2026-06-20-first-entry/index.html#a-brief-results-table",
+    "title": "Docking using T4 lysozyme L99A",
+    "section": "A brief results table",
+    "text": "A brief results table"
+  },
+  {
+    "objectID": "posts/2026-06-20-first-entry/index.html#toluene",
+    "href": "posts/2026-06-20-first-entry/index.html#toluene",
+    "title": "Docking using T4 lysozyme L99A",
+    "section": "Toluene",
+    "text": "Toluene\nToluene scoring higher than benzene was surprising. I then took a moment to think about it, here are my messy notes:\n\n\n\n\n\n\nNoteHandwritten notes: shape-matching reasoning\n\n\n\n\n\n\n\n\nReasoning through whether shape complementarity predicts phenol vs. benzene scoring"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Pharmacology student, working toward computational biology / bioinformatics with a longer-term interest in computational neuroscience. I learn best by building things, I wanted to document my journey."
+  },
+  {
+    "objectID": "about.html#about-me",
+    "href": "about.html#about-me",
+    "title": "About",
+    "section": "",
+    "text": "Pharmacology student, working toward computational biology / bioinformatics with a longer-term interest in computational neuroscience. I learn best by building things, I wanted to document my journey."
+  },
+  {
+    "objectID": "about.html#what-im-working-on",
+    "href": "about.html#what-im-working-on",
+    "title": "About",
+    "section": "What I’m working on",
+    "text": "What I’m working on\n\nMolecular docking pipeline (AutoDock Vina, HADDOCK) for a neuroscience-adjacent research project. See the Lab Notebook for process notes (results/findings are kept off this site)\nRNA-seq analysis, variant calling, and NGS workflows\nBuilding reproducible, documented pipelines"
+  },
+  {
+    "objectID": "about.html#skills",
+    "href": "about.html#skills",
+    "title": "About",
+    "section": "Skills",
+    "text": "Skills\nComputational: Python, Galaxy, conda environments\nBioinformatics tools: AutoDock Vina, PDB2PQR, OpenBabel, Meeko, PyMOL, HADDOCK\nIn progress: RNA-seq pipelines, variant calling, scientific programming"
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About",
+    "section": "Education",
+    "text": "Education\nMSci Pharmacology, graduation eventually d:\nIncoming: PhD in computational neuroscience or genomic medicine"
+  },
+  {
+    "objectID": "about.html#outside-the-lab",
+    "href": "about.html#outside-the-lab",
+    "title": "About",
+    "section": "Outside the lab",
+    "text": "Outside the lab\nDigital design and pixel art — most of the visual design on this site (illustrations, icons, layout touches) is my own work.\nOil painting — I enjoy relaxing while inhaling fumes, it does good for my mind\nBy the way, I will also be making many different stained glass pieces in gothic / victorian style. Including, but not limited to:\n\nmirror frames\nlampshades\nfigures\n\nI will update it here soon and I will link my etsy and showcase account here soon, so if you are interested, stay tuned !"
+  }
+]
