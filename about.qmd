@@ -1,0 +1,64 @@
+---
+title: "About"
+image: /images/wing_icon.png
+about:
+  template: trestles
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/obssxed-cell
+    - icon: envelope
+      text: Email
+      href: mailto:unsettlement@pm.me
+---
+
+## About me
+
+Pharmacology student, working toward 
+computational biology / bioinformatics with a longer-term interest 
+in computational neuroscience. I learn best by building things, I wanted to document my journey.
+
+## What I'm working on
+
+- Molecular docking pipeline (AutoDock Vina, HADDOCK) for a 
+  neuroscience-adjacent research project. See the Lab Notebook for 
+  process notes (results/findings are kept off this site)
+- RNA-seq analysis, variant calling, and NGS workflows
+- Building reproducible, documented pipelines
+
+## Skills
+
+**Computational**: Python, Galaxy, conda environments  
+**Bioinformatics tools**: AutoDock Vina, PDB2PQR, OpenBabel, Meeko, 
+PyMOL, HADDOCK  
+**In progress**: RNA-seq pipelines, variant calling, scientific 
+programming  
+
+## Education
+
+**MSci Pharmacology**, graduation eventually d:
+
+**Incoming:** PhD in computational neuroscience or genomic medicine
+
+::: {.pixel-bar-frame style="--bar-v:url('/images/border_pink_vertical.png'); --bar-h:url('/images/border_pink_horizontal.png');"}
+
+
+## Outside the lab
+
+Digital design and pixel art — most of the visual design on this site 
+(illustrations, icons, layout touches) is my own work.
+
+Oil painting — I enjoy relaxing while inhaling fumes, it does good for my mind
+
+By the way, I will also be making many different stained glass pieces in gothic / victorian style.
+Including, but not limited to:
+
+- mirror frames
+- lampshades
+- figures
+
+I will update it here soon and I will link my etsy and showcase account here soon, so if you are interested, stay tuned !
+
+![](/images/wing_icon.png){width=100px .pixel-art}
+
+:::

@@ -1,0 +1,31 @@
+project:
+  type: website
+  resources:
+    - cv.pdf
+    - "images/*.png"
+
+website:
+  title: "Sephy's Lab Notebook"
+  navbar:
+    logo: images/wing_icon.png
+    left:
+      - href: index.qmd
+        text: Home
+      - href: posts.qmd
+        text: Lab Notebook
+      - href: about.qmd
+        text: About
+    right:
+      - icon: github
+        href: https://github.com/obssxed-cell
+      - icon: instagram
+        href: https://www.instagram.com/sephyscript/
+
+format:
+  html:
+    theme: 
+      light: [journal, theme.scss]  
+      dark: [journal, theme-dark.scss]    # try also: flatly, lux, simplex
+    css: styles.css
+    toc: true
+    include-after-body: magic.html

@@ -1,0 +1,21 @@
+---
+title: "Free access to my pipeline in 'Docking using T4 lysozyme L99A' "
+date: 2026-06-20
+categories: [pipeline preparation, docking pipeline, pipeline access]
+---
+
+:::: {.pixel-frame}
+
+# Pipeline
+Access my pipeline on GitHub:
+
+![](/images/git_logo.png){width=100px .pixel-art}
+
+[GitHub <3 obssxed-cell](https://github.com/obssxed-cell/docking-pipeline){.btn .btn-outline-dark}
+
+:::
+
+---
+
+
+See my [About page](/about.qmd) for more on my background.

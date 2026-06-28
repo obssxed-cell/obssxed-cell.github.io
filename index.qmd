@@ -1,0 +1,30 @@
+---
+#[Sephy's Lab Notebook]{.shimmer-text}
+---
+
+# Welcome! 
+
+I am happy to have you here!
+
+This is where I document my path toward computational
+biology and bioinformatics: pipelines I'm building, things I'm
+learning, and the process behind the research (not the findings
+themselves).
+
+## Start here
+
+- **[Lab Notebook](posts.qmd)** — dated entries on what I'm working
+  through, week to week
+- **[About](about.qmd)** — background, skills, and email contact if you need to contact me for any questions etc! 
+
+
+# **Currently building:**
+
+- a molecular docking pipeline for a TrkB/BDNF
+research project.
+(This pipeline does something genuinely [magical]{.shimmer-text}.)
+
+- working through RNA-seq and variant-calling
+fundamentals.
+
+# **Built in dark-mode available via toggle next to the main logo**
