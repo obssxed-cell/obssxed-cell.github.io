@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>About – Sephy’s Lab Notebook</title>
+<title>Reading Room – Sephy’s Lab Notebook</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -33,10 +33,13 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
@@ -73,7 +76,65 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -270,7 +331,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Lab Notebook</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./reading.html"> 
+    <a class="nav-link active" href="./reading.html" aria-current="page"> 
 <span class="menu-text">Reading Room</span></a>
   </li>  
   <li class="nav-item">
@@ -278,7 +339,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Pipeline Hub</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page"> 
+    <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -306,84 +367,72 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-  <ul>
-  <li><a href="#about-me" id="toc-about-me" class="nav-link active" data-scroll-target="#about-me">About me</a></li>
-  <li><a href="#what-im-working-on" id="toc-what-im-working-on" class="nav-link" data-scroll-target="#what-im-working-on">What I’m working on</a></li>
-  <li><a href="#skills" id="toc-skills" class="nav-link" data-scroll-target="#skills">Skills</a></li>
-  <li><a href="#education" id="toc-education" class="nav-link" data-scroll-target="#education">Education</a></li>
-  <li><a href="#outside-the-lab" id="toc-outside-the-lab" class="nav-link" data-scroll-target="#outside-the-lab">Outside the lab</a></li>
-  </ul>
-</nav>
-    </div>
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="QkRORg==">BDNF <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q05T">CNS <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bmV1cm9waGFybWFjb2xvZ3k=">neuropharmacology <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<div class="quarto-about-trestles">
-  <div class="about-entity">
-    <img src="/images/wing_icon.png" class="about-image
-  rounded " style="width: 20em;">
+<main class="content" id="quarto-document-content">
+
+
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About</h1>
+<h1 class="title">Reading Room</h1>
 </div>
+
+
+
 <div class="quarto-title-meta">
+
+    
+  
+    
   </div>
+  
+
+
 </header>
-    <div class="about-links">
-  <a href="https://github.com/obssxed-cell" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">GitHub</span>
-  </a>
-  <a href="mailto:unsettlement@pm.me" class="about-link" rel="" target="">
-    <i class="bi bi-envelope"></i>
-     <span class="about-link-text">Email</span>
-  </a>
+
+
+<p>Papers I’ve been reading: summaries, key takeaways, and what made me pick them up.</p>
+
+
+
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="bmV1cm9waGFybWFjb2xvZ3klMkNDTlMlMkNCRE5G" data-listing-date-sort="1782774000000" data-listing-file-modified-sort="1782851335021" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="21">
+<div class="thumbnail"><a href="./reading/2026-06-30-bdnf-trkb-signalling/index.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./reading/2026-06-30-bdnf-trkb-signalling/index.html" class="no-external">BDNF/TrkB signalling in CNS neurodegeneration</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('bmV1cm9waGFybWFjb2xvZ3k='); return false;">neuropharmacology</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q05T'); return false;">CNS</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('QkRORg=='); return false;">BDNF</div>
+
 </div>
-  </div>
-  <div class="about-contents"><main class="content" id="quarto-document-content">
-
-
-<section id="about-me" class="level2">
-<h2 data-anchor-id="about-me">About me</h2>
-<p>Pharmacology student, working toward computational biology / bioinformatics with a longer-term interest in computational neuroscience. I learn best by building things, I wanted to document my journey.</p>
-</section>
-<section id="what-im-working-on" class="level2">
-<h2 data-anchor-id="what-im-working-on">What I’m working on</h2>
-<ul>
-<li>Molecular docking pipeline (AutoDock Vina, HADDOCK) for a neuroscience-adjacent research project. See the Lab Notebook for process notes (results/findings are kept off this site)</li>
-<li>RNA-seq analysis, variant calling, and NGS workflows</li>
-<li>Building reproducible, documented pipelines</li>
-</ul>
-</section>
-<section id="skills" class="level2">
-<h2 data-anchor-id="skills">Skills</h2>
-<p><strong>Computational</strong>: Python, Galaxy, conda environments<br>
-<strong>Bioinformatics tools</strong>: AutoDock Vina, PDB2PQR, OpenBabel, Meeko, PyMOL, HADDOCK<br>
-<strong>In progress</strong>: RNA-seq pipelines, variant calling, scientific programming</p>
-</section>
-<section id="education" class="level2">
-<h2 data-anchor-id="education">Education</h2>
-<p><strong>MSci Pharmacology</strong>, graduation eventually d:</p>
-<p><strong>Incoming:</strong> PhD in computational neuroscience or genomic medicine</p>
-</section>
-<section id="outside-the-lab" class="level2 pixel-bar-frame" style="--bar-v:url('/images/border_pink_vertical.png'); --bar-h:url('/images/border_pink_horizontal.png');">
-<h2 data-anchor-id="outside-the-lab">Outside the lab</h2>
-<p>Digital design and pixel art — most of the visual design on this site (illustrations, icons, layout touches) is my own work.</p>
-<p>Oil painting — I enjoy relaxing while inhaling fumes, it does good for my mind</p>
-<p>By the way, I will also be making many different stained glass pieces in gothic / victorian style. Including, but not limited to:</p>
-<ul>
-<li>mirror frames</li>
-<li>lampshades</li>
-<li>figures</li>
-</ul>
-<p>I will update it here soon and I will link my etsy and showcase account here soon, so if you are interested, stay tuned !</p>
-<p><img src="./images/wing_icon.png" class="pixel-art img-fluid" width="100"></p>
-</section>
-
-
-</main></div>
+<div class="delink listing-description"><a href="./reading/2026-06-30-bdnf-trkb-signalling/index.html" class="no-external">
+<p>Summary of the signalling cascade and therapeutic implications.</p>
+</a></div>
 </div>
- <!-- /main -->
+<div class="metadata">
+<a href="./reading/2026-06-30-bdnf-trkb-signalling/index.html" class="no-external">
+<div class="listing-date">
+Jun 30, 2026
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div></main> <!-- /main -->
 <script>
 document.addEventListener('mousemove', (e) => {
   const s = document.createElement('div');
@@ -410,6 +459,13 @@ document.addEventListener('mousemove', (e) => {
       window.document.body.appendChild(a);
     }
     setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     

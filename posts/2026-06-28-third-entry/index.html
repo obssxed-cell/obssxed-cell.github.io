@@ -8,7 +8,7 @@
 
 <meta name="dcterms.date" content="2026-06-20">
 
-<title>Free access to this pipeline – Sephy’s Lab Notebook</title>
+<title>HADDOCK analysis – Sephy’s Lab Notebook</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -272,6 +272,14 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Lab Notebook</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="../../reading.html"> 
+<span class="menu-text">Reading Room</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../pipelines.html"> 
+<span class="menu-text">Pipeline Hub</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
@@ -283,7 +291,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://www.linkedin.com/in/irem-uyumaz-a510113ab/"> <i class="bi bi-linkedin" role="img">
+    <a class="nav-link" href="https://www.instagram.com/sephyscript/"> <i class="bi bi-instagram" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -299,14 +307,8 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#pipeline" id="toc-pipeline" class="nav-link active" data-scroll-target="#pipeline">pipeline</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -314,11 +316,11 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Free access to this pipeline</h1>
+<h1 class="title">HADDOCK analysis</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">bioinformatics</div>
-    <div class="quarto-category">pipeline preparation</div>
     <div class="quarto-category">docking</div>
+    <div class="quarto-category">documented workflow</div>
+    <div class="quarto-category">evaluation</div>
   </div>
   </div>
 
@@ -342,15 +344,25 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="pipeline" class="level2 pixel-frame">
-<h2 class="anchored" data-anchor-id="pipeline">pipeline</h2>
-<p>Access my pipeline on GitHub:</p>
-<p><img src="../../images/git_logo.png" class="pixel-art img-fluid" width="100"></p>
-<p><a href="https://github.com/obssxed-cell/docking-pipeline" class="btn btn-outline-dark">GitHub &lt;3 obssxed-cell</a></p>
+<div style="position: relative;">
+<section id="what-i-worked-on-today" class="level2 pixel-bar-frame" style="--bar-v:url('/images/border_pink_vertical.png'); --bar-h:url('/images/border_pink_horizontal.png');">
+<h2 class="anchored" data-anchor-id="what-i-worked-on-today">What I worked on today</h2>
+<p>I have been waiting on HADDOCK to finish this run for what felt like <em>the</em> longest time.</p>
+<p>Today, I have successfully worked through TrkB’s domain architechture:</p>
+<ul>
+<li>LRR domain: acts as the structural scaffold. It is capped by disulfide bridges via cysteine clusters CC1 and CC2.</li>
+<li>d5 domain: this is the actual contact site of BDNF with the TrkB receptor</li>
+<li>transmembrane helix: remains inside the membrane</li>
+<li>kinase domain: in a dimer, two kinase domains form an activation loop. this activation loop blocks the substrate site.</li>
+</ul>
+<p>Following that,</p>
 </section>
-<p>See my <a href="../../about.html">About page</a> for more on my background.</p>
+<p><img src="../../images/gem_green.png" class="sparkle-corner img-fluid" style="top: -15px; right: -15px; animation-delay: 0.6s"> <img src="../../images/heart_pink.png" class="sparkle-corner img-fluid" style="bottom: 45px; right: 0px; animation-delay: 0.3"> <img src="../../images/gem_teal.png" class="sparkle-corner img-fluid" style="top: 150px; left: -15px; animation-delay: 0.5s"></p>
+</div>
+<div style="position: relative;">
 
 
+</div>
 
 </main> <!-- /main -->
 <script>
@@ -450,7 +462,7 @@ document.addEventListener('mousemove', (e) => {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/obssxed-cell\.github\.io\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
