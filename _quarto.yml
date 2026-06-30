@@ -1,8 +1,8 @@
 project:
   type: website
   resources:
-    - cv.pdf
     - "images/*.png"
+    - "reading/**/*.png"
 
 website:
   title: "Sephy's Lab Notebook"
@@ -13,6 +13,10 @@ website:
         text: Home
       - href: posts.qmd
         text: Lab Notebook
+      - href: reading.qmd
+        text: Reading Room
+      - href: pipelines.qmd
+        text: Pipeline Hub
       - href: about.qmd
         text: About
     right:

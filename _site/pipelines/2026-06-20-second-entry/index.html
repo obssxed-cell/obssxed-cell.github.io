@@ -272,6 +272,14 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Lab Notebook</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="../../reading.html"> 
+<span class="menu-text">Reading Room</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../pipelines.html"> 
+<span class="menu-text">Pipeline Hub</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
@@ -283,7 +291,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://www.linkedin.com/in/irem-uyumaz-a510113ab/"> <i class="bi bi-linkedin" role="img">
+    <a class="nav-link" href="https://www.instagram.com/sephyscript/"> <i class="bi bi-instagram" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -348,6 +356,9 @@ ul.task-list li input[type="checkbox"] {
 <p><img src="../../images/git_logo.png" class="pixel-art img-fluid" width="100"></p>
 <p><a href="https://github.com/obssxed-cell/docking-pipeline" class="btn btn-outline-dark">GitHub &lt;3 obssxed-cell</a></p>
 </section>
+<hr>
+<p>Here is the link to the post in which I used this pipeline:</p>
+<p><a href="../../posts/2026-06-20-first-entry">Docking using T4 lysozyme L99A</a></p>
 <hr>
 <p>See my <a href="../../about.html">About page</a> for more on my background.</p>
 
@@ -451,7 +462,7 @@ document.addEventListener('mousemove', (e) => {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/obssxed-cell\.github\.io\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

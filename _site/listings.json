@@ -2,8 +2,20 @@
   {
     "listing": "/posts.html",
     "items": [
-      "/posts/2026-06-20-second-post/index.html",
+      "/posts/2026-06-28-third-entry/index.html",
       "/posts/2026-06-20-first-entry/index.html"
+    ]
+  },
+  {
+    "listing": "/reading.html",
+    "items": [
+      "/reading/2026-06-30-bdnf-trkb-signalling/index.html"
+    ]
+  },
+  {
+    "listing": "/pipelines.html",
+    "items": [
+      "/pipelines/2026-06-20-second-entry/index.html"
     ]
   }
 ]

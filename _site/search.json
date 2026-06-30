@@ -4,28 +4,28 @@
     "href": "posts.html",
     "title": "Lab Notebook",
     "section": "",
-    "text": "Free access to my pipeline in ‘Docking using T4 lysozyme L99A’\n\n\n\npipeline preparation\n\ndocking pipeline\n\npipeline access\n\n\n\n\n\n\n\n\n\nJun 20, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nDocking using T4 lysozyme L99A\n\n\n\ndocking\n\ndocumented workflow\n\nevaluation\n\n\n\n\n\n\n\n\n\nJun 20, 2026\n\n\n\n\n\nNo matching items"
+    "text": "HADDOCK analysis\n\n\n\ndocking\n\ndocumented workflow\n\nevaluation\n\n\n\n\n\n\n\n\n\nJun 20, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nDocking using T4 lysozyme L99A\n\n\n\ndocking\n\ndocumented workflow\n\nevaluation\n\n\n\n\n\n\n\n\n\nJun 20, 2026\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "reading.html",
+    "href": "reading.html",
+    "title": "Reading Room",
+    "section": "",
+    "text": "Papers I’ve been reading: summaries, key takeaways, and what made me pick them up.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBDNF/TrkB signalling in CNS neurodegeneration\n\n\n\nneuropharmacology\n\nCNS\n\nBDNF\n\n\n\nSummary of the signalling cascade and therapeutic implications.\n\n\n\n\n\nJun 30, 2026\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Welcome!",
     "section": "",
-    "text": "I am happy to have you here!\nThis is where I document my path toward computational biology and bioinformatics: pipelines I’m building, things I’m learning, and the process behind the research (not the findings themselves).\n\n\n\nLab Notebook — dated entries on what I’m working through, week to week\nAbout — background, skills, and email contact if you need to contact me for any questions etc!"
+    "text": "I am happy to have you here!\nThis is where I document my path toward computational biology and bioinformatics: pipelines I’m building, things I’m learning, and the process behind the research (not the findings themselves).\n\n\n\nLab Notebook — dated entries on what I’m working through, week to week\nReading Room — recent articles I read and my notes on them in relations to my work I am currently doing.\nPipeline Hub — access to my pipelines!\nAbout — background, skills, and email contact if you need to contact me for any questions etc!"
   },
   {
     "objectID": "index.html#start-here",
     "href": "index.html#start-here",
     "title": "Welcome!",
     "section": "",
-    "text": "Lab Notebook — dated entries on what I’m working through, week to week\nAbout — background, skills, and email contact if you need to contact me for any questions etc!"
-  },
-  {
-    "objectID": "posts/2026-06-20-second-post/index.html",
-    "href": "posts/2026-06-20-second-post/index.html",
-    "title": "Free access to my pipeline in ‘Docking using T4 lysozyme L99A’",
-    "section": "",
-    "text": "Pipeline\nAccess my pipeline on GitHub:\n\nGitHub &lt;3 obssxed-cell\n\n\nSee my About page for more on my background."
+    "text": "Lab Notebook — dated entries on what I’m working through, week to week\nReading Room — recent articles I read and my notes on them in relations to my work I am currently doing.\nPipeline Hub — access to my pipelines!\nAbout — background, skills, and email contact if you need to contact me for any questions etc!"
   },
   {
     "objectID": "posts/2026-06-20-first-entry/index.html",
@@ -77,6 +77,69 @@
     "text": "Toluene\nToluene scoring higher than benzene was surprising. I then took a moment to think about it, here are my messy notes:\n\n\n\n\n\n\nNoteHandwritten notes: shape-matching reasoning\n\n\n\n\n\n\n\n\nReasoning through whether shape complementarity predicts phenol vs. benzene scoring"
   },
   {
+    "objectID": "reading/2026-06-30-bdnf-trkb-signalling/index.html",
+    "href": "reading/2026-06-30-bdnf-trkb-signalling/index.html",
+    "title": "BDNF/TrkB signalling in CNS neurodegeneration",
+    "section": "",
+    "text": "…"
+  },
+  {
+    "objectID": "reading/2026-06-30-bdnf-trkb-signalling/index.html#why-i-read-this",
+    "href": "reading/2026-06-30-bdnf-trkb-signalling/index.html#why-i-read-this",
+    "title": "BDNF/TrkB signalling in CNS neurodegeneration",
+    "section": "",
+    "text": "…"
+  },
+  {
+    "objectID": "reading/2026-06-30-bdnf-trkb-signalling/index.html#key-findings",
+    "href": "reading/2026-06-30-bdnf-trkb-signalling/index.html#key-findings",
+    "title": "BDNF/TrkB signalling in CNS neurodegeneration",
+    "section": "Key findings",
+    "text": "Key findings\n…"
+  },
+  {
+    "objectID": "reading/2026-06-30-bdnf-trkb-signalling/index.html#what-i-didnt-understand-want-to-follow-up-on",
+    "href": "reading/2026-06-30-bdnf-trkb-signalling/index.html#what-i-didnt-understand-want-to-follow-up-on",
+    "title": "BDNF/TrkB signalling in CNS neurodegeneration",
+    "section": "What I didn’t understand / want to follow up on",
+    "text": "What I didn’t understand / want to follow up on\n…"
+  },
+  {
+    "objectID": "reading/2026-06-30-bdnf-trkb-signalling/index.html#how-it-connects-to-my-own-work",
+    "href": "reading/2026-06-30-bdnf-trkb-signalling/index.html#how-it-connects-to-my-own-work",
+    "title": "BDNF/TrkB signalling in CNS neurodegeneration",
+    "section": "How it connects to my own work",
+    "text": "How it connects to my own work\n…"
+  },
+  {
+    "objectID": "reading/2026-06-30-bdnf-trkb-signalling/index.html#citation",
+    "href": "reading/2026-06-30-bdnf-trkb-signalling/index.html#citation",
+    "title": "BDNF/TrkB signalling in CNS neurodegeneration",
+    "section": "Citation",
+    "text": "Citation"
+  },
+  {
+    "objectID": "posts/2026-06-28-third-entry/index.html",
+    "href": "posts/2026-06-28-third-entry/index.html",
+    "title": "HADDOCK analysis",
+    "section": "",
+    "text": "I have been waiting on HADDOCK to finish this run for what felt like the longest time.\nToday, I have successfully worked through TrkB’s domain architechture:\n\nLRR domain: acts as the structural scaffold. It is capped by disulfide bridges via cysteine clusters CC1 and CC2.\nd5 domain: this is the actual contact site of BDNF with the TrkB receptor\ntransmembrane helix: remains inside the membrane\nkinase domain: in a dimer, two kinase domains form an activation loop. this activation loop blocks the substrate site.\n\nFollowing that,"
+  },
+  {
+    "objectID": "posts/2026-06-28-third-entry/index.html#what-i-worked-on-today",
+    "href": "posts/2026-06-28-third-entry/index.html#what-i-worked-on-today",
+    "title": "HADDOCK analysis",
+    "section": "",
+    "text": "I have been waiting on HADDOCK to finish this run for what felt like the longest time.\nToday, I have successfully worked through TrkB’s domain architechture:\n\nLRR domain: acts as the structural scaffold. It is capped by disulfide bridges via cysteine clusters CC1 and CC2.\nd5 domain: this is the actual contact site of BDNF with the TrkB receptor\ntransmembrane helix: remains inside the membrane\nkinase domain: in a dimer, two kinase domains form an activation loop. this activation loop blocks the substrate site.\n\nFollowing that,"
+  },
+  {
+    "objectID": "pipelines/2026-06-24 pipeline/2026-06-20-second-entry/index.html",
+    "href": "pipelines/2026-06-24 pipeline/2026-06-20-second-entry/index.html",
+    "title": "Free access to my pipeline in ‘Docking using T4 lysozyme L99A’",
+    "section": "",
+    "text": "Pipeline\nAccess my pipeline on GitHub:\n\nGitHub &lt;3 obssxed-cell\n\n\nSee my About page for more on my background."
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -117,5 +180,19 @@
     "title": "About",
     "section": "Outside the lab",
     "text": "Outside the lab\nDigital design and pixel art — most of the visual design on this site (illustrations, icons, layout touches) is my own work.\nOil painting — I enjoy relaxing while inhaling fumes, it does good for my mind\nBy the way, I will also be making many different stained glass pieces in gothic / victorian style. Including, but not limited to:\n\nmirror frames\nlampshades\nfigures\n\nI will update it here soon and I will link my etsy and showcase account here soon, so if you are interested, stay tuned !"
+  },
+  {
+    "objectID": "pipelines.html",
+    "href": "pipelines.html",
+    "title": "Pipeline Hub",
+    "section": "",
+    "text": "Pipelines I have built. You can use these yourself, access is through GitHub.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFree access to my pipeline in ‘Docking using T4 lysozyme L99A’\n\n\n\npipeline preparation\n\ndocking pipeline\n\npipeline access\n\n\n\n\n\n\n\n\n\nJun 20, 2026\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "pipelines/2026-06-20-second-entry/index.html",
+    "href": "pipelines/2026-06-20-second-entry/index.html",
+    "title": "Free access to my pipeline in ‘Docking using T4 lysozyme L99A’",
+    "section": "",
+    "text": "Pipeline\nAccess my pipeline on GitHub:\n\nGitHub &lt;3 obssxed-cell\n\n\nHere is the link to the post in which I used this pipeline:\nDocking using T4 lysozyme L99A\n\nSee my About page for more on my background."
   }
 ]

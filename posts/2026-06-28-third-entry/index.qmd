@@ -1,0 +1,37 @@
+---
+title: "HADDOCK analysis"
+date: 2026-06-20
+categories: [docking, documented workflow, evaluation]
+---
+
+::: {style="position: relative;"}
+
+:::: {.pixel-bar-frame style="--bar-v:url('/images/border_pink_vertical.png'); --bar-h:url('/images/border_pink_horizontal.png');"}
+
+## What I worked on today
+
+   I have been waiting on HADDOCK to finish this run for
+   what felt like *the* longest time.
+
+   Today, I have successfully worked through TrkB's domain architechture:
+
+   - LRR domain: acts as the structural scaffold. It is capped by disulfide bridges
+   via cysteine clusters CC1 and CC2.
+   - d5 domain: this is the actual contact site of BDNF with the TrkB receptor
+   - transmembrane helix: remains inside the membrane
+   - kinase domain: in a dimer, two kinase domains form an activation loop.
+   this activation loop blocks the substrate site.
+   
+   Following that, 
+
+ 
+
+::::
+
+![](/images/gem_green.png){.sparkle-corner style="top: -15px; right: -15px; animation-delay: 0.6s"}
+![](/images/heart_pink.png){.sparkle-corner style="bottom: 45px; right: 0px; animation-delay: 0.3"}
+![](/images/gem_teal.png){.sparkle-corner style="top: 150px; left: -15px; animation-delay: 0.5s"}
+
+:::
+
+::::: {style="position: relative;"}

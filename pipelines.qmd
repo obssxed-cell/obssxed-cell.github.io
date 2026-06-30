@@ -1,0 +1,10 @@
+---
+title: "Pipeline Hub"
+listing:
+  contents: pipelines
+  sort: "date desc"
+  type: default
+  categories: true
+---
+
+Pipelines I have built. You can use these yourself, access is through GitHub.

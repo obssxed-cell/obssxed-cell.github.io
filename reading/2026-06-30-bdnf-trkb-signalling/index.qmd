@@ -1,0 +1,24 @@
+---
+title: "BDNF/TrkB signalling in CNS neurodegeneration"
+date: 2026-06-30
+categories: [neuropharmacology, CNS, BDNF]
+description: "Summary of the signalling cascade and therapeutic implications."
+---
+
+## Why I read this
+
+...
+
+## Key findings
+
+...
+
+## What I didn't understand / want to follow up on
+
+...
+
+## How it connects to my own work
+
+...
+
+## Citation

@@ -17,5 +17,10 @@ Access my pipeline on GitHub:
 
 ---
 
+Here is the link to the post in which I used this pipeline:
+
+[Docking using T4 lysozyme L99A](/posts/2026-06-20-first-entry)
+
+---
 
 See my [About page](/about.qmd) for more on my background.
